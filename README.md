@@ -20,7 +20,7 @@ Fetch API for retrieving weather data
 Screenshots
 <img width="1051" height="784" alt="Screenshot 2025-09-06 at 8 35 00 PM" src="https://github.com/user-attachments/assets/f2694409-8e71-4849-9dfb-378d0a08e662" />
 <img width="1051" height="784" alt="Screenshot 2025-09-06 at 8 35 00 PM" src="https://github.com/user-attachments/assets/243c14d8-cfaf-4511-a97c-ddfc9f2bf622" />
-
+--------------------------------------------------------------------
 Author
 Vanshika Parihar
 
