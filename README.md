@@ -1,5 +1,4 @@
-#Project Name: React Weather App
-#Description:
+React Weather App
 A dynamic web application built with React that allows users to track the weather of cities all over the world. 
 The app fetches real-time weather data from a weather API and displays:
 Current temperature
