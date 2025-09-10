@@ -13,7 +13,7 @@ const Weather = () => {
   const [city, setCity] = useState("Tempe, AZ");
   const [weather, setWeather] = useState(null);
 
-  const apiKey = "EEKWK7D9K8RQ28ZGL4PG7PMNC";
+  const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
   const getWeatherIcon = (conditions) => {
     conditions = conditions.toLowerCase();
