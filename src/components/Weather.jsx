@@ -14,7 +14,9 @@ const Weather = () => {
   const [weather, setWeather] = useState(null);
 
 
-const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+const apiKey = "EEKWK7D9K8RQ28ZGL4PG7PMNC";
+
+
 
   const getWeatherIcon = (conditions) => {
     conditions = conditions.toLowerCase();
@@ -73,12 +75,14 @@ const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
           value={city}
           onChange={(e) => setCity(e.target.value)}
           onKeyPress={handleKeyPress}
+          data-cy="search-input"
         />
         <img
           src={searchIcon}
           alt="search"
           onClick={() => search(city)}
           style={{ cursor: "pointer" }}
+          data-cy="search-btn" 
         />
       </div>
 
@@ -89,8 +93,8 @@ const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
             alt={weather.conditions}
             className='weather-icon'
           />
-          <p className='temperature'>{weather.temp}°C</p>
-          <p className='location'>{weather.name}</p>
+          <p className='temperature' data-cy="temperature">{weather.temp}°C</p>
+          <p className='location' data-cy="location">{weather.name}</p>
           <div className='weather-data'>
             <div className='col'>
               <img src={humidityIcon} alt="humidity" />
